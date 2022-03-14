@@ -5,7 +5,7 @@ Este repositório guarda algumas das documentações referentes a fintech [Pixap
 ### PIXAPAY PDV
 - O aplicativo pixapay possui integração direta com qualquer PDV que desejar utilizá-lo. Por ele, é possível gerar cobranças de PIX instantâneo totalmente integrado.
 
-Link oficial para download: https://pixapay.com.br/arquivos/PixaPay.exe
+Link oficial para download: https://pixapay.com.br/arquivos/Pixapay.zip
 
 ###### COMUNICAÇÃO
 - O PDV que deseja integrar, precisa chamar o aplicativo "pixapay.exe" enviando de parâmetro o JSON abaixo demonstrado codificado em base64 ou gerar o json abaixo em um arquivo externo e enviar de parâmetro o caminho do arquivo que possui o json com a estrutura a seguir:

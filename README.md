@@ -70,9 +70,9 @@ Exemplo de chamada enviando de parâmetro o json acima informado convertido em b
 - 2- O código copia e cola do pix automaticamente fica disponinibilizado no clipboard.
 
 - 3-Disponibilizamos também um meio de o EXE integrador conseguir se comunicar com nossa aplicação via arquivo txt gerando um arquivo na pasta que foi definida em **callbackFilepath** com o nome **paramsPix.txt**:
-- 3.1- Para cancelar o pix, salve neste arquivo o valor "**1**" apenas;
-- 3.2- Para imprimir na impressora de bobina, salve neste arquivo o valor "**2**" apenas;
-- 3.3- Para copiar o pix copia e cola para o clipboard, salve neste arquivo o valor "**3**" apenas;
+- - 3.1- Para cancelar o pix, salve neste arquivo o valor "**1**" apenas;
+- - 3.2- Para imprimir na impressora de bobina, salve neste arquivo o valor "**2**" apenas;
+- - 3.3- Para copiar o pix copia e cola para o clipboard, salve neste arquivo o valor "**3**" apenas;
 
 
 ###### OPÇÕES DO USUÁRIO

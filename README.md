@@ -64,6 +64,17 @@ Exemplo de chamada enviando de parâmetro o json acima informado convertido em b
 
 - Ao exibir a tela superior, o exe também salvará o qrCode em um arquivo local no caminho em que o usuário definiu nos parâmetros iniciais na propriedade **callbackFilePath** com nome "**pix.png**". Ao fazer isto, o PDV integrador terá a possibilidade de imprimir o qrCode também na impressora de bobina para exibir ao cliente que talvez não tenha acesso ao monitor em que o PDV está sendo executado para então conseguir efetuar o pagamento.
 
+###### EXE MINIMIZADO
+- Quando a propriedade "formVisible" for "false", o EXE do pixapay abrirá minimizado, então quem ficará responsável em exibir o PIX para ser pago será a aplicação integradora.
+1- Nós fornecemos o acesso ao QRCode do pix gerado via arquivo local no caminho em que o usuário definiu nos parâmetros iniciais na propriedade **callbackFilepath"" com o nome "**pix.png**".
+2- O código copia e cola do pix automaticamente fica disponinibilizado no clipboard.
+
+3-Disponibilizamos também um meio de o EXE integrador conseguir se comunicar com nossa aplicação via arquivo txt gerando um arquivo na pasta que foi definida em **callbackFilepath** com o nome **paramsPix.txt**:
+3.1- Para cancelar o pix, salve neste arquivo o valor "**1**" apenas;
+3.2- Para imprimir na impressora de bobina, salve neste arquivo o valor "**2**" apenas;
+3.3- Para copiar o pix copia e cola para o clipboard, salve neste arquivo o valor "**3**" apenas;
+
+
 ###### OPÇÕES DO USUÁRIO
 
 - Caso usuário desejar cancelar esta cobrança, basta clicar no botão "Cancelar cobrança" ou no "X" de fechar na parte superior. Ao fazer isto, o pixapay gerará um arquivo json de retorno para seu PDV conseguir identificar que o usuário cancelou a geração de cobrança por pix. O nome do arquivo gerado é "**PixapayReturn.json**" e será salvo no caminho informado pelo json de parâmetro recebido na propriedade **callbackFilePath**.

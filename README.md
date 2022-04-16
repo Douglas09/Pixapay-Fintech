@@ -67,7 +67,7 @@ Exemplo de chamada enviando de parâmetro o json acima informado convertido em b
 ###### EXE MINIMIZADO
 - Quando a propriedade "formVisible" for "false", o EXE da fintech abrirá minimizado, então quem ficará responsável em exibir o PIX para ser pago será a aplicação integradora.
 - 1- Nós fornecemos o acesso ao QRCode do pix gerado via arquivo local no caminho em que o usuário definiu nos parâmetros iniciais na propriedade **callbackFilepath"" com o nome "**pix.png**".
-- 2- O código copia e cola do pix automaticamente fica disponinibilizado no clipboard.
+- 2- O código copia e cola do pix automaticamente ficará disponível no clipboard.
 
 - 3-Disponibilizamos também um meio de o EXE integrador conseguir se comunicar com nossa aplicação via arquivo txt gerando um arquivo na pasta que foi definida em **callbackFilepath** com o nome **paramsPix.txt**:
 - - 3.1- Para cancelar o pix, salve neste arquivo o valor "**1**" apenas;

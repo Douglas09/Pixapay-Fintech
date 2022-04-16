@@ -65,7 +65,7 @@ Exemplo de chamada enviando de parâmetro o json acima informado convertido em b
 - Ao exibir a tela superior, o exe também salvará o qrCode em um arquivo local no caminho em que o usuário definiu nos parâmetros iniciais na propriedade **callbackFilePath** com nome "**pix.png**". Ao fazer isto, o PDV integrador terá a possibilidade de imprimir o qrCode também na impressora de bobina para exibir ao cliente que talvez não tenha acesso ao monitor em que o PDV está sendo executado para então conseguir efetuar o pagamento.
 
 ###### EXE MINIMIZADO
-- Quando a propriedade "formVisible" for "false", o EXE do pixapay abrirá minimizado, então quem ficará responsável em exibir o PIX para ser pago será a aplicação integradora.
+- Quando a propriedade "formVisible" for "false", o EXE da fintech abrirá minimizado, então quem ficará responsável em exibir o PIX para ser pago será a aplicação integradora.
 1- Nós fornecemos o acesso ao QRCode do pix gerado via arquivo local no caminho em que o usuário definiu nos parâmetros iniciais na propriedade **callbackFilepath"" com o nome "**pix.png**".
 2- O código copia e cola do pix automaticamente fica disponinibilizado no clipboard.
 
